@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            jQuery
+        </title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+                Codeplayer
+            </div>
+            <div id="buttonContainer">
+                <div class="toggleButton" id="html">HTML</div>
+                <div class="toggleButton" id="css">CSS</div>
+                <div class="toggleButton" id="javascript">Javascript</div>
+                <div class="toggleButton" id="output">Output</div>
+            </div>
+        </div>
+        <div id="bodyContainer">
+        
+            <textarea id="htmlPanel" class="panel"><p id="paragraph">Hello World!</p></textarea>
+            
+            <textarea id="cssPanel" class="panel hidden">p { color: green; }</textarea>
+            
+            <textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").innerHTML = "Hello Rob!";</textarea>
+            
+            <iframe id="outputPanel" class="panel"></iframe>
+        
+        
+        </div>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="java.js"></script>
+    </body>
+</html>
