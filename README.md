@@ -1,86 +1,53 @@
-# CODE PLAYER
+# Octo
+> Deep learning model for recognising pets :)
 
-![Project Image](project-image-url)
 
-> This is a ReadMe template to help save you time and effort.
-
----
-
-### Table of Contents
-You're sections headers will be used to reference location of destination.
+### I have explained my project by breaking down it into simpler parts. 
 
 - [Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
-- [Author Info](#author-info)
+- [Technologies used](#technologies)
+- [Contact-info](#author-info)
 
 ---
 
-## Description
+## Description 
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+Step-1:Initially I imported the following libraries:<br>
+1.Numpy<br>
+2.Pandas<br>
+3.Tensorflow<br>
+Then the data to be utilized was pre-processed in data preprocessing step<br><br><br>
+<img width="934" alt="1" src="https://user-images.githubusercontent.com/88343647/224535868-804b2fa2-d585-4fea-a4ee-65bdd41964f9.png"><br><br>
+Step-2:Encoding categorical data, which implies converting categorical data into integer format so that the data with converted categorical values can be provided to the models to give and improve the predictions.<br><br><br>
+<img width="927" alt="2" src="https://user-images.githubusercontent.com/88343647/224536096-b0631fa3-7be5-4a8f-b19a-b46364924ac7.png"><br><br>
+Step-3:Splitting the data set into test set and training set using train_test_split from sci-kit learn.<br><br><br>
+<img width="894" alt="3" src="https://user-images.githubusercontent.com/88343647/224536257-d0b89360-66df-471d-ac58-92f69bb5eb27.png"><br><br>
+Step-4:After specifying the test set and training set, building of ANN model was done as per the following steps:<br><br>
+<img width="878" alt="4" src="https://user-images.githubusercontent.com/88343647/224536326-e4c95265-32be-47d0-a5d7-508b8416cfdc.png"><br><br><br><br>
+Step-5:Once the model was built, it was trained for the selected dataset and the predictions were analysed<br>
+As per the results it can be concluded that:
+<b>Accuracy of the model was 0.8615<b><br>
+    From the matrix we can say that:<br>
+    No. of people predicted correctly (stay): 1520<br>
+    No. of people predicted incorrectly (stay): 202<br>
+    No. of people predicted incorrectly (not stay): 75<br>
+    No. of people predicted correctly (not stay): 203<br><br><br>
+    <img width="882" alt="5" src="https://user-images.githubusercontent.com/88343647/224536594-6df2f638-2fca-451c-bd23-190fc1739efb.png"><br><br>
+
+
 
 #### Technologies
 
-- Technology 1
-- Technology 2
+- Numpy
+- Pandas
+- Tensorflow
+- Sci-kit Learn
+- Google collabratory
 
-[Back To The Top](#read-me-template)
-
----
-
-## How To Use
-
-#### Installation
-
-
-
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
-[Back To The Top](#read-me-template)
-
----
-
-## References
-[Back To The Top](#read-me-template)
-
----
-
-## License
-
-MIT License
-
-Copyright (c) [2017] [James Q Quick]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-[Back To The Top](#read-me-template)
-
----
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- E-mail - [shubhangini2203@gmail.com]
+- Website - [Shubhangini](https://62988a84130dd177a6a2332b--stately-crostata-24e520.netlify.app/)
 
 [Back To The Top](#read-me-template)
