@@ -15,38 +15,31 @@ By writing them side by side and observing the executed results
 ---
 
 ## Description 
+Below is the snapshot of the website:<br>
+You can divide the code area into the languages you want to play with.<br><br>
 
-Step-1:Initially I imported the following libraries:<br>
-1.Numpy<br>
-2.Pandas<br>
-3.Tensorflow<br>
-Then the data to be utilized was pre-processed in data preprocessing step<br><br><br>
-<img width="934" alt="1" src="https://user-images.githubusercontent.com/88343647/224535868-804b2fa2-d585-4fea-a4ee-65bdd41964f9.png"><br><br>
-Step-2:Encoding categorical data, which implies converting categorical data into integer format so that the data with converted categorical values can be provided to the models to give and improve the predictions.<br><br><br>
-<img width="927" alt="2" src="https://user-images.githubusercontent.com/88343647/224536096-b0631fa3-7be5-4a8f-b19a-b46364924ac7.png"><br><br>
-Step-3:Splitting the data set into test set and training set using train_test_split from sci-kit learn.<br><br><br>
-<img width="894" alt="3" src="https://user-images.githubusercontent.com/88343647/224536257-d0b89360-66df-471d-ac58-92f69bb5eb27.png"><br><br>
-Step-4:After specifying the test set and training set, building of ANN model was done as per the following steps:<br><br>
-<img width="878" alt="4" src="https://user-images.githubusercontent.com/88343647/224536326-e4c95265-32be-47d0-a5d7-508b8416cfdc.png"><br><br><br><br>
-Step-5:Once the model was built, it was trained for the selected dataset and the predictions were analysed<br>
-As per the results it can be concluded that:
-<b>Accuracy of the model was 0.8615<b><br>
-    From the matrix we can say that:<br>
-    No. of people predicted correctly (stay): 1520<br>
-    No. of people predicted incorrectly (stay): 202<br>
-    No. of people predicted incorrectly (not stay): 75<br>
-    No. of people predicted correctly (not stay): 203<br><br><br>
-    <img width="882" alt="5" src="https://user-images.githubusercontent.com/88343647/224536594-6df2f638-2fca-451c-bd23-190fc1739efb.png"><br><br>
 
+<img width="960" alt="1" src="https://user-images.githubusercontent.com/88343647/224553549-af0ac25d-56b5-455d-9513-1198c5f9e623.png">
+<br><br><br>
+You can write and modify the output as well by seeing side by side implementations without getting your heads into remote sources<br><br>
+
+
+<img width="959" alt="2" src="https://user-images.githubusercontent.com/88343647/224553665-4c7de8e8-cabd-4b99-a456-49cae420c4d2.png">
+<br><br><br>
+To implement the code and see the outputs I went on with the bunchs of javascript and jQuery functions.
+<br><br>
+
+
+<img width="621" alt="3" src="https://user-images.githubusercontent.com/88343647/224553795-063a08b9-1dca-4482-88b6-719b2913c4f0.png">
 
 
 #### Technologies
 
-- Numpy
-- Pandas
-- Tensorflow
-- Sci-kit Learn
-- Google collabratory
+- HTML
+- CSS
+- Javascript
+- Jquery
+- VS code
 
 
 ## Author Info
