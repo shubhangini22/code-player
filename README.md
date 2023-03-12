@@ -4,7 +4,7 @@
 2.CSS<br>
 3.Javascript<br>
 By writing them side by side and observing the executed results<br>
-<b>Website LinkL:</b><br>
+<b>Website Link:</b><br>
 https://shubhangini22.github.io/code-player/
 
 
