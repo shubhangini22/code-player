@@ -1,5 +1,9 @@
-# Octo
-> Deep learning model for recognising pets :)
+# Code-Player
+> Play with pieces of your code of following languages:<br>
+1.HTML<br>
+2.CSS<br>
+3.Javascript<br>
+By writing them side by side and observing the executed results
 
 
 ### I have explained my project by breaking down it into simpler parts. 
