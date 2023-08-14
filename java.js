@@ -1,5 +1,5 @@
 function updateOutput() {
-                
+    //this function is fpr updating the output         
     $("iframe").contents().find("html").html("<html><head><style type='text/css'>" + $("#cssPanel").val() + "</style></head><body>" + $("#htmlPanel").val() + "</body></html>");
     //updating output -- inline html 
     document.getElementById("outputPanel").contentWindow.eval($("#javascriptPanel").val());
@@ -15,6 +15,7 @@ $(".toggleButton").hover(function() {
 }, function() {
     
     $(this).removeClass("highlightedButton");
+  //.removeclass function here helps in removing one or more class names from selected elements
     //hover function (hover documentation)
 });
 
